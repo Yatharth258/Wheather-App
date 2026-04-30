@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: auto;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 53, 53);
+    justify-content: space-around;
+   
+ } 
+ .navbar span{
+    margin: 0 10px;
+ } 
+.text{
+/* color: rgb(91, 151, 235); */
+color:rgb(100, 195, 221) ;
+flex-grow: 1;
+font-size: 3rem;
+font-weight: 700;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color:rgb(100, 195, 221) ;
+    height: 77vh ;
+}
+.input{
+    display:flex;
+    align-items: center;
+    height: 40%;
+    justify-content: center;
+}
+#cityInput{
+    height: 48px;
+    width: 40vw;
+    background-color: rgb(54, 53, 53);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+} 
+::placeholder {
+  color: white; 
+}
+button{
+    height: 52px;
+    width: 4vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+.output{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .bottom {
+  position: relative;
+  height: 60px;
+  background-color: rgb(54, 53, 53);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom .about{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
